@@ -1,4 +1,3 @@
-//Функция Эйлера
 #include <iostream>
 
 using namespace std;
@@ -7,7 +6,7 @@ int main()
 {
     setlocale (0, "Russian");
     int n, c, k, l;
-    cout << "введите натуральное n\n";
+    cout << "РІРІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ n\n";
     cin >> n;
     if (n > 0)
     {
@@ -34,11 +33,11 @@ int main()
                 c++;
             }
         }
-        cout << "Ответ:" << c;
+        cout << c;
     }
     else
     {
-        cout << "введено неверное число";
+        cout << "РІРІРµРґРµРЅРѕ РЅРµРІРµСЂРЅРѕРµ С‡РёСЃР»Рѕ";
     }
 
     return 0;
